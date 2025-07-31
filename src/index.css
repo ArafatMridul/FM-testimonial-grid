@@ -1,0 +1,19 @@
+@import "tailwindcss";
+
+@theme {
+    --color-p-p-1: hsl(260, 100%, 95%);
+    --color-p-p-2: hsl(264, 82%, 80%);
+    --color-p-p-3: hsl(263, 55%, 52%);
+    --color-n-w: hsl(0, 0%, 100%);
+    --color-n-g-1: hsl(214, 17%, 92%);
+    --color-n-g-2: hsl(0, 0%, 81%);
+    --color-n-g-3: hsl(224, 10%, 45%);
+    --color-n-g-4: hsl(217, 19%, 35%);
+    --color-n-b: hsl(219, 29%, 14%);
+    --color-n-bl: hsl(0, 0%, 7%);
+    --font-bsc: "Barlow Semi Condensed", sans-serif;
+}
+
+@layer utilities {
+    .wrapper {}
+}
