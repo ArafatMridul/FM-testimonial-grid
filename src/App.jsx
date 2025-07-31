@@ -8,7 +8,7 @@ import Testimonial from "./components/Testimonial";
 
 const App = () => {
     return (
-        <div className="bg-n-g-1 px-9 py-18 sm:px-12 sm:py-24 grid gap-8.5 sm:gap-6 lg:gap-9 sm:grid-cols-2 lg:grid-cols-4 lg:h-screen lg:py-57 lg:px-41">
+        <div className="px-9 py-18 sm:px-12 sm:py-24 grid gap-8.5 sm:gap-6 lg:gap-9 sm:grid-cols-2 lg:grid-cols-4 lg:pt-32 max-w-[1110px] lg:mx-auto lg:px-0">
             <Testimonial
                 bgColor="bg-p-p-3"
                 borderColor="border-p-p-2"
